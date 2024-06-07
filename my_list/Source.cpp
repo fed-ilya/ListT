@@ -99,7 +99,7 @@ int main()
 {
 	std::string a = "2x^1y^1z^1 + 3x^2y^3z^1 + 1x^1y^1z^0";
 	std::string b = "5x^2y^1z^1";
-	std::string ab = " 1 *(1)";
+	std::string ab = " 2 *(2)";
 	TPolinom p1(a),p2(b);
 	std::vector<TPolinom> V;
 	V.push_back(p1);
